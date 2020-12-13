@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+    font-family: "Lucida" Grande, sans-serif, cursive;
+    z-index:-1;
+  }
+  
+ 
+ 
+
+  .button{
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    height: 38px;
+    background-color: #333;
+    color: #fff;
+    padding: 2px 2px 2px 2px;
+  }
+  #tweet-icon{
+      font-size: 38px;
+  }
+  #new-quote{
+      float: right;
+  }
+  #quote-box{
+    border-radius: 3px;
+    width: 450px;
+    padding: 40px 50px;
+    background-color: #f3f3f2f3;
+    z-index: 1;
+  }
+  #author{
+    padding: 2px 4px 2px 4px;
+    text-align: right;
+  }
+  .buttons{
+    padding: 2%;
+    margin: 2%;
+  }
